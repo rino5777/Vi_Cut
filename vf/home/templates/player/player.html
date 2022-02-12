@@ -1,0 +1,57 @@
+{% extends 'home/t1.html' %}
+
+{% load static %}
+
+{% block content %}
+<style>
+    h1 { margin: 150px auto 50px auto; text-align: center; }
+    .swinger-container { max-width: 960px; margin: 0 auto; }
+    </style>   
+
+  <div class="swinger-container" >
+    
+    <img src="{% static 'file/img/0.jpg' %}" />
+    <img src="{% static 'file/img/20.jpg' %}" />
+    <img src="{% static 'file/img/40.jpg' %}" />
+    <img src="{% static 'file/img/60.jpg' %}" />
+    <img src="{% static 'file/img/80.jpg' %}" />
+    <img src="{% static 'file/img/100.jpg' %}" />
+    <img src="{% static 'file/img/120.jpg' %}" />
+    <img src="{% static 'file/img/140.jpg' %}" />
+    <img src="{% static 'file/img/160.jpg' %}" />
+    <img src="{% static 'file/img/180.jpg' %}" />
+    <img src="{% static 'file/img/200.jpg' %}" />
+    <img src="{% static 'file/img/220.jpg' %}" />
+    <img src="{% static 'file/img/240.jpg' %}" />
+    <img src="{% static 'file/img/260.jpg' %}" />
+    <img src="{% static 'file/img/280.jpg' %}" />
+    <img src="{% static 'file/img/300.jpg' %}" />
+    <img src="{% static 'file/img/320.jpg' %}" />
+    <img src="{% static 'file/img/340.jpg' %}" />
+    <img src="{% static 'file/img/360.jpg' %}" />
+    <img src="{% static 'file/img/380.jpg' %}" />
+    <img src="{% static 'file/img/400.jpg' %}" />
+    <img src="{% static 'file/img/420.jpg' %}" />
+    <!-- <img src="{% static 'file/img/440.jpg' %}" />
+    <img src="{% static 'file/img/460.jpg' %}" />
+    <img src="{% static 'file/img/480.jpg' %}" />
+    <img src="{% static 'file/img/500.jpg' %}" />
+    <img src="{% static 'file/img/520.jpg' %}" />
+    <img src="{% static 'file/img/540.jpg' %}" />
+    <img src="{% static 'file/img/560.jpg' %}" />
+    <img src="{% static 'file/img/580.jpg' %}" />
+    <img src="{% static 'file/img/600.jpg' %}" />
+    <img src="{% static 'file/img/620.jpg' %}" />
+    <img src="{% static 'file/img/640.jpg' %}" /> -->
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+
+<script src="{% static 'admin/js/swinger.js' %}"></script>
+<script>
+    $(".swinger-container").swinger();
+</script>
+
+{% endblock content %}
+
