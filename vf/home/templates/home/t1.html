@@ -62,6 +62,7 @@
 
 
 
+
   {% block content %}
   <main class="px-3">
     <h1>Загрузите вашие видео на сервер</h1>
@@ -72,6 +73,7 @@
         {% csrf_token %}
            {{ video_input.as_p }}
         <input  type="submit" value="Отправить"  >
+        
         
        </form>
   </main>
